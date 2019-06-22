@@ -1,0 +1,13 @@
+{
+	"apps": [{
+		"name": "app_name",
+		"script": "artisan",
+		"args": ["serve"],
+		"instances": "1",
+		"wait_ready": true,
+		"autorestart": false,
+		"max_restarts": 5,
+		"interpreter" : "/usr/bin/php7.1",
+	    }]
+}
+
